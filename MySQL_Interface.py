@@ -1,6 +1,6 @@
 ''' 
 Module      : MySQL_Interface
-Author      : Raman
+Author      : Ruthrapathy
 Objective   : To connect to MySQL database and execute a SQL
 Functions   : 1) Execute select statemnt
               2) Execute Insert/Update/Delete statement
@@ -17,7 +17,7 @@ PORT = 3306 # default is 3306. Port must be specified if it is not 3306
 def Execute_Select(select_sql):
     '''
 Function    : Execute_Select
-Author      : Raman
+Author      : Ruthrapathy
 Objective   : To execute a select statment after connecting to MySQL
 Inputs      : Properly formed select SQL statement
 Returns     : a 3 variables containing 
@@ -66,7 +66,7 @@ Examples    : Here are some example on how to call the function
 def Execute_IUD(iud_sql):
     '''
 Function    : Execute_IUD
-Author      : Raman
+Author      : Ruthrapathy
 Objective   : To execute a insert/update/delete statment after connecting to MySQL in a Transaction
 Inputs      : Properly formed insert/update/delete SQL string statement in a list
               iud_sql is a list containing 1 or more Insert/Update/Delete statements
@@ -116,7 +116,7 @@ Examples    : Here are some example on how to call the function
 def Execute_IUD(iud_sql):
     '''
 Function    : Execute_IUD
-Author      : Raman
+Author      : Ruthrapathy
 Objective   : To execute a insert/update/delete statment after connecting to MySQL in a Transaction
 Inputs      : Properly formed insert/update/delete SQL string statement in a list
               iud_sql is a list containing 1 or more Insert/Update/Delete statements
