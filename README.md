@@ -5,3 +5,4 @@ For python project for making db management for a shop
 ,Addded with graphical user interface ,and a small tic tac toe game and
 
 Matrice calculator 
+FLAMES CALCULATOR try it here first ever in python coding 
